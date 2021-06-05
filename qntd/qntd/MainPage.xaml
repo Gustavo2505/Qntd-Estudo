@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="qntd.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="50">
+        <Label Text="Qntd" FontSize="40" HorizontalTextAlignment="Center"></Label>
+        <Label x:Name="Lblqntd" Text="1" FontSize="25" TextColor="blue" HorizontalOptions="Center"></Label>
+
+
+        <StackLayout Orientation="Horizontal" Spacing="20">
+        <Button Clicked="Soma" Text="+" FontSize="40"></Button>
+        <Button Clicked="Subtrair" Text="-" FontSize="40"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
